@@ -13,7 +13,7 @@ spec:
       # replace it with your git secret if it's a private repo
       # secretRef: git-secret
       # the pull interval time, set to 10m since the infrastructure is steady
-      pullInterval: 10m
+      pullInterval: 5m
       git:
         # the branch name
         branch: master
