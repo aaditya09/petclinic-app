@@ -11,5 +11,9 @@ STEPS:
 1). Add config repo and define app.yaml and infra.yaml (which checks for any content change in the yamls and apply changes)
 2). Define app.yaml 
 3). Define infra.yaml 
-4). Apply cluster/infra.yaml
-5). 
+4). Apply cluster/infra.yaml 
+    - Gets the mysql cluster deployed automatically 
+5). Apply cluser/apps.yaml
+    - Gets the appplication deployed automatically 
+6). update the ingress name and see the magic :D 
+
