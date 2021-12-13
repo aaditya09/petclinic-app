@@ -8,14 +8,8 @@ spec:
     type: kustomize
     properties:
       repoType: git
-      # replace it with your repo url
       url: https://github.com/aaditya09/petclinic-app
-      # replace it with your git secret if it's a private repo
-      # secretRef: git-secret
-      # the pull interval time, set to 10m since the infrastructure is steady
-      pullInterval: 5m
+      pullInterval: 10m
       git:
-        # the branch name
         branch: master
-      # the path to sync
       path: ./infrastructure
