@@ -8,5 +8,8 @@
 
 STEPS: 
 
-1). Add config repo and define app.yaml and infra.yaml
-2). 
+1). Add config repo and define app.yaml and infra.yaml (which checks for any content change in the yamls and apply changes)
+2). Define app.yaml 
+3). Define infra.yaml 
+4). Apply cluster/infra.yaml
+5). 
