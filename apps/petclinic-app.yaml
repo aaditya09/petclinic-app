@@ -21,6 +21,6 @@ spec:
       traits:
         - type: ingress
           properties:
-            domain: testpetclinic.example.com
+            domain: test1223petclinic.example.com
             http:
               /: 8080
